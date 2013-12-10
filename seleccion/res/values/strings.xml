@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">seleccion</string>
+    <string name="action_settings">Settings</string>
+    <string name="textoBoton1"> Checkbox Menu </string>
+    <string name="textoBoton2"> RadioButton Menu </string>
+    <string name="textoBoton3"> Simple Spinner Menu </string>
+    <string name="textoBoton4"> ListView Menu </string>
+
+    <!-- STRINGS PARA BOTONES -->
+    <string name="boton1"> Ir </string>
+    <string name="boton2"> Ir </string>
+    <string name="boton3"> Ir </string>
+    <string name="boton4"> Ir </string>
+
+    <!-- STRINGS PARA TEXTOS QUE ACOMPAÑAN A LOS BOTONES -->
+    <string name="textoBox1"> Deporte</string>
+    <string name="textoBox2"> Musica </string>
+    <string name="textoBox3"> Cine </string>
+    <string name="textoTextViewCheck"> Lo que te gusta </string>
+    <string name="textoBotonHobbys"> Mostrar </string>
+
+    <!-- STRINGS PARA LOS RADIO INPUT -->
+    <string name="lblElige"> Elige una opción </string>
+    <string name="textRadio1"> Hombre </string>
+    <string name="textRadio2"> Mujer </string>
+    <string name="descripcionImagen"> Imagen </string>
+
+    <!-- STRINGS PARA LOS MENÚS -->
+
+    <string name="menuOpcion1"> Opcion1 </string>
+    <string name="menuOpcion2"> Opcion2 </string>
+    <string name="menuOpcion3"> Opcion3 </string>
+    <string name="menuOpcion4"> Opcion4 </string>
+    <string name="title_activity_prueba_spinner">PruebaSpinner</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="TextoAcercaDe"> Esta aplicacion está hecha por Jose Fernando Molina García </string>
+    
+
+</resources>

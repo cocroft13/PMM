@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">multipleSeleccion</string>
+    <string name="action_settings">Settings</string>
+    <string name="textButton"> Ir </string>
+    <string name="goChkBox"> CheckBoxs </string>
+    <string name="radioText"> RadioButtons </string>
+    <string name="textButton2"> Ir </string>
+    
+    <string name="textCheckBox"> Uno </string>
+    <string name="textCheckBox2"> Dos </string>
+    
+
+</resources>

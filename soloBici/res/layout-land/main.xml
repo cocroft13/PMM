@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:stretchColumns="*">
+  
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tituloAplicacion"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_marginBottom="20dip"
+        android:textColor="#ff0000" />
+  
+    <TableRow >
+
+    <Button
+        android:id="@+id/Boton01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@+string/Jugar" />
+
+    <Button
+        android:id="@+id/Boton02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@+string/Configurar" />
+    
+    </TableRow>
+    
+    <TableRow >
+
+    <Button
+        android:id="@+id/Boton03"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@+string/Acercade" />
+
+    <Button
+        android:id="@+id/Boton04"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@+string/Salir" />
+    
+    </TableRow>
+    
+    
+</TableLayout>

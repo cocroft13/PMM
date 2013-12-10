@@ -1,0 +1,111 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+  <TabHost android:id="@android:id/tabhost"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+      
+      <LinearLayout
+          android:orientation="vertical"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+          
+          <TabWidget 
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:id="@android:id/tabs"/>
+              
+              <FrameLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:id="@android:id/tabcontent">
+                  
+                <LinearLayout
+                    android:id="@+id/tab1"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    
+                    <TextView 
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:text="@string/textoBox1"/>		
+				    
+				    <CheckBox 
+				        android:id="@+id/checkBox1"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"/>
+				    
+				    <TextView 
+				        android:text="@string/textoBox2"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"/>
+				    
+				    <CheckBox 
+				        android:id="@+id/checkBox2"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"/>
+				    
+				    <TextView 
+				        android:text="@string/textoBox3"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"/>
+				    
+				    <CheckBox 
+				        android:id="@+id/checkBox3"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"/>
+				    			    
+				    <Button 
+				        android:id="@+id/botonMostrarHobby"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:text="@string/textoBotonHobbys"/>   
+				    
+				    <TextView
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:id="@+id/textoCheckBox"/>           
+                </LinearLayout>
+                
+                <LinearLayout 
+                    android:id="@+id/tab2"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    
+                     <TextView 
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:text="@string/lblElige"/>
+				      
+				    <RadioGroup 
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:id="@+id/radioGroup">
+				        
+					    <RadioButton 
+					    	android:id="@+id/radio1"
+					    	android:layout_width="wrap_content"
+					    	android:layout_height="wrap_content"
+					        android:text="@string/textRadio1"/>
+					    	
+					    <RadioButton 
+						    android:id="@+id/radio2"
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/textRadio2"/>    
+					</RadioGroup>
+				    
+				    <TextView 
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:id="@+id/lblSeleccion"/>
+    
+                </LinearLayout>   
+              </FrameLayout>    
+      </LinearLayout>   
+  </TabHost>
+  </LinearLayout>

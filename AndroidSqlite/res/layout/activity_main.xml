@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".agenda" >
+
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/IntroduccionDatos"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textColor="#ffffff"/>
+       
+    <EditText
+        android:text="@string/Nombre"
+        android:id="@+id/txtNombre"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="text"/>
+	
+    
+    <EditText 
+        android:text="@string/Telefono"
+        android:id="@+id/txtTelefono"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"      
+        android:inputType="phone"/> 
+        
+    <Button
+        android:id="@+id/insertarContacto"
+        android:layout_width="200dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="@string/textButton1"
+        android:layout_gravity="center_vertical|center_horizontal"/>
+    
+    <Button 
+        android:id="@+id/llamarContacto"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/textButton2"
+        android:layout_gravity="center_vertical|center_horizontal"/>     
+        
+    <Button 
+        android:id="@+id/eliminarBD"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/textButton3"
+        android:layout_gravity="center_vertical|center_horizontal"/>
+    
+    
+    <Button 
+        android:id="@+id/cerrar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/textButton4"
+        android:layout_gravity="center_vertical|center_horizontal"/>
+    
+    	
+    
+    
+    
+    
+</LinearLayout>
