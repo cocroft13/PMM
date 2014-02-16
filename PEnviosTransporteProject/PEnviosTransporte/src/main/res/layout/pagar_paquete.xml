@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.penviostransporte.PagarPaquete"
+    android:orientation="vertical"
+    tools:ignore="MergeRootFrame" >
+
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Introduce el dinero a pagar"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dip"/>
+
+
+    <EditText
+        android:id="@+id/campoDineroIntroducido"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dip"
+        />
+
+    <Button
+        android:id="@+id/botonPagar"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dip"
+        android:text="Pagar"/>
+
+    <TextView
+        android:id="@+id/lblDineroDevolver"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dip"
+        android:textSize="25dip"/>
+
+
+
+
+
+
+
+</LinearLayout>

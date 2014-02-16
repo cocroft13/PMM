@@ -23,6 +23,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".ResultadoEnvio"></activity>
+        <activity android:name=".PagarPaquete"></activity>
     </application>
 
 </manifest>

@@ -1,4 +1,4 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/container"
     android:layout_width="match_parent"
@@ -13,8 +13,18 @@
         android:layout_centerHorizontal="true"
         android:id="@+id/textoResultadoFinal"
         android:layout_height="wrap_content"
-        android:layout_width="wrap_content" />
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="100dip"
+        android:layout_marginTop="100dip"/>
+
+    <Button
+        android:id="@+id/botonPagarPaquete"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Pagar paquete"
+        android:layout_marginLeft="100dip"
+        android:layout_marginTop="50dip"/>
 
 
 
-</RelativeLayout>
+</LinearLayout>

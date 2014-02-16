@@ -1,0 +1,57 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <TableRow
+        android:id="@+id/tableRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip">
+
+        <TextView
+            android:id="@+id/textUsuario"
+            android:text="Usuario: "
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+        <EditText
+            android:id="@+id/campoUsuario"
+            android:minWidth="100dip"
+            android:layout_marginLeft="15dip"/>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip">
+
+        <TextView
+            android:id="@+id/textoPassword"
+            android:text="Contraseña: "
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <EditText
+            android:id="@+id/campoPassword"
+            android:password="true"
+            android:layout_marginLeft="15dip"/>
+    </TableRow>
+
+    <TableRow>
+    <LinearLayout/>
+
+    <Button
+        android:layout_marginTop="15dip"
+        android:id="@+id/botonValidar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iniciar sesion"
+        android:textStyle="bold"/>
+
+
+    </TableRow>
+
+
+</TableLayout>

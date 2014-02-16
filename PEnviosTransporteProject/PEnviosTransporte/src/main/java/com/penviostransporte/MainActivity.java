@@ -39,7 +39,7 @@ public class MainActivity extends ActionBarActivity {
     String tarifa;
     String zona;
 
-    double costeFinal;
+    int costeFinal;
 
 
     public void onCreate(Bundle savedInstanceState){
@@ -123,17 +123,14 @@ public class MainActivity extends ActionBarActivity {
                 //CONTROL DEL PESO DEL PAQUETE
                 if (pesoFinal <= 5){
                     pesoFinal *= 1;
-
                 }
 
-                if (pesoFinal >5 && pesoFinal < 10){
+                if (pesoFinal >5 && pesoFinal <= 10){
                     pesoFinal *= 1.5;
-
                 }
 
                 if (pesoFinal > 10){
                     pesoFinal *= 2;
-
                 }
 
                 //CONTROL DE LA DECORACION
@@ -160,14 +157,14 @@ public class MainActivity extends ActionBarActivity {
 
 
                int coste = precioZona + pesoFinal;
-               costeFinal = coste + coste*0.3;
+               costeFinal = (int) (coste + coste * precioEnvio);
 
                Bundle bundle = new Bundle();
                bundle.putString("ZONA",zona);
                bundle.putString("TARIFA",tarifa);
                bundle.putString("PESO", peso);
                bundle.putString("DECORACION",decoracion);
-               bundle.putDouble("COSTEFINAL", costeFinal);
+               bundle.putInt("COSTEFINAL", costeFinal);
 
                Intent intent = new Intent(MainActivity.this,ResultadoEnvio.class);
                intent.putExtras(bundle);
@@ -176,8 +173,6 @@ public class MainActivity extends ActionBarActivity {
             }
         });
     }
-
-
 
     public boolean onCreateOptionsMenu(Menu menu) {
 
@@ -244,7 +239,7 @@ public class MainActivity extends ActionBarActivity {
 
         }
 
-        }
+    }
 
     final private static Zona[] datos = new Zona[]{
             new Zona("A","Asia y Oceania",30),

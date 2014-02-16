@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dibujafiguras"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.dibujafiguras.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.dibujafiguras.DibujaCirculo"
+            android:label="@string/title_activity_dibuja_circulo" >
+        </activity>
+        <activity
+            android:name="com.example.dibujafiguras.Circulo"
+            android:label="@string/title_activity_circulo" >
+        </activity>
+        <activity
+            android:name="com.example.dibujafiguras.DibujaCuadrado"
+            android:label="@string/title_activity_dibuja_cuadrado" >
+        </activity>
+        <activity
+            android:name="com.example.dibujafiguras.Cuadrado"
+            android:label="@string/title_activity_cuadrado" >
+        </activity>
+        <activity
+            android:name="com.example.dibujafiguras.DibujaOvalo"
+            android:label="@string/title_activity_dibuja_ovalo" >
+        </activity>
+        <activity
+            android:name="com.example.dibujafiguras.Ovalo"
+            android:label="@string/title_activity_ovalo" >
+        </activity>
+        <activity
+            android:name="com.example.dibujafiguras.DibujaTriangulo"
+            android:label="@string/title_activity_dibuja_triangulo" >
+        </activity>
+        <activity
+            android:name="com.example.dibujafiguras.Triangulo"
+            android:label="@string/title_activity_triangulo" >
+        </activity>
+        
+    </application>
+
+</manifest>

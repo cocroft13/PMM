@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BaseDatosSqlAndroid/BaseDatosSqlAndroid.iml" filepath="$PROJECT_DIR$/BaseDatosSqlAndroid/BaseDatosSqlAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BaseDatosSqlAndroidProject.iml" filepath="$PROJECT_DIR$/BaseDatosSqlAndroidProject.iml" />
+    </modules>
+  </component>
+</project>
+

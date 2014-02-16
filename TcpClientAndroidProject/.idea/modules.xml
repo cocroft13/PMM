@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TcpClientAndroid/TcpClientAndroid.iml" filepath="$PROJECT_DIR$/TcpClientAndroid/TcpClientAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TcpClientAndroidProject.iml" filepath="$PROJECT_DIR$/TcpClientAndroidProject.iml" />
+    </modules>
+  </component>
+</project>
+

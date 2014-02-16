@@ -1,23 +1,28 @@
 package com.penviostransporte;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class ResultadoEnvio extends Activity{
 
+    Button botonPagarPaquete;
     TextView textoResultadoFinal;
     String zona;
     String tarifa;
     String peso;
     String decoracion;
-    double costeFinal;
+    int costeFinal;
     String textoFinal;
 
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.resultadoenvio);
 
+        botonPagarPaquete = (Button)findViewById(R.id.botonPagarPaquete);
         textoResultadoFinal = (TextView)findViewById(R.id.textoResultadoFinal);
 
         Bundle bundle = getIntent().getExtras();
@@ -26,7 +31,7 @@ public class ResultadoEnvio extends Activity{
         tarifa = bundle.getString("TARIFA");
         peso = bundle.getString("PESO");
         decoracion =  bundle.getString("DECORACION");
-        costeFinal = bundle.getDouble("COSTEFINAL");
+        costeFinal = bundle.getInt("COSTEFINAL");
 
 
         textoFinal =  "Zona: " + zona + "\n"+
@@ -36,6 +41,22 @@ public class ResultadoEnvio extends Activity{
                       "COSTE FINAL: " + costeFinal + "€";
 
         textoResultadoFinal.setText(textoFinal);
+
+
+
+    botonPagarPaquete.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+
+            Bundle b = new Bundle();
+            b.putInt("COSTE",costeFinal);
+
+            Intent intent = new Intent(ResultadoEnvio.this,PagarPaquete.class);
+            intent.putExtras(b);
+            startActivity(intent);
+
+        }
+    });
 
     }
 }
