@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Introduzca los datos del nuevo centro:"
+        android:textSize="18sp"/>   
+    
+    <EditText 
+        android:id="@+id/lblCodCentro"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Codigo del centro"
+        android:layout_marginTop="10dip"/>
+    
+    <EditText
+        android:id="@+id/lblTipoCentro"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tipo del centro"
+        android:layout_marginTop="10dip"
+        />
+    
+    <EditText
+        android:id="@+id/lblNombreCentro"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del centro"
+        android:layout_marginTop="10dip"/>
+    
+    <EditText
+        android:id="@+id/lblDireccionCentro"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Direccion del centro"
+        android:layout_marginTop="10dip"/>
+    
+    <EditText 
+        android:id="@+id/lblTelefonoCentro"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Telefono del centro"
+        android:layout_marginTop="10dip"/>
+    
+    <EditText 
+        android:id="@+id/lblNumPlazas"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Numero de plazas"
+        android:layout_marginTop="10dip"/>
+      
+    <Button 
+        android:id="@+id/btnRegistrarCentro"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:text="Registrar Centro"/>
+    
+    
+</LinearLayout>

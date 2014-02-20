@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hola">
+ 
+    </TextView>
+    
+    
+    <Button 
+        android:id="@+id/botonCentros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Centros"/>
+    
+    <Button
+        android:id="@+id/botonProfesores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profesores"/>
+    
+    <Button 
+        android:id="@+id/botonPersonal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Personal"/>
+    
+    <Button 
+        android:id="@+id/botonSalir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salir"/>
+    
+    
+    
+
+</LinearLayout>

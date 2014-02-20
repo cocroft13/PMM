@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.androidcentroescolar.PantallaCentros" >
+    
+       
+    <TextView
+        android:id="@+id/lblCodCentro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>      
+       
+    <TextView
+        android:id="@+id/lblTipoCentro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>       
+       
+    <TextView 
+        android:id="@+id/lblNombreCentro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    
+    <TextView 
+        android:id="@+id/lblDireccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    
+    <TextView 
+        android:id="@+id/lblTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    
+    <TextView 
+        android:id="@+id/lblNumPlazas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    
+    
+    
+</LinearLayout>
